@@ -12,7 +12,7 @@ import Error from './Error';
 
        const[error,setError]=useState(false)
 
-      /* useEffect(()=>{
+       useEffect(()=>{
            if(Object.keys(paciente).length > 0){
             console.log('Si hay algo')    
                setNombre(paciente.nombre)
@@ -24,7 +24,7 @@ import Error from './Error';
            }else{
              console.log('No hay nada')
            }
-      },[paciente])*/
+      },[paciente])
 
        const generarId=()=>{
         const random= Math.random().toString(36).substr(2);
